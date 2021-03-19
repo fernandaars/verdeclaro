@@ -1,0 +1,42 @@
+header{
+    background-color: #3d3d33;
+}
+
+
+li .first_green{
+    /* background-color: #a2dd4d; */
+    background-color: #c4edd0;
+}
+
+.second_green{
+    /* background-color: #a2dd4d; */
+    background-color: #8adba1;
+}
+
+.third_green{
+    /* background-color: #fe7541; */
+    background-color: #4fc972;
+}
+
+.fourth_green{
+    /* background-color: #29b6d2; */
+    background-color: #309c4f;
+}
+
+.fifth_green{
+    /* background-color: #993fdd; */
+    background-color: #24753b;
+}
+
+.sixth_green{
+    /* background-color: #ff657f; */
+    background-color: #123b1d;
+}
+
+.grey{
+    background-color: #8a9ca6;
+}
+
+.dark_grey{
+    background-color: #3d3d33;
+}
