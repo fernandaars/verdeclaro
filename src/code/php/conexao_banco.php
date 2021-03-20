@@ -1,6 +1,6 @@
 <?php
 
-$database = 'orbis';
+$database = 'verdeclaro';
 $host = 'localhost';
 $user = 'fernandaars';
 $pass = 'password';
