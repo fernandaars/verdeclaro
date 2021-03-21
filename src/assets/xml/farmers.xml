@@ -1,0 +1,123 @@
+<?ml version="1.0" encoding="utf-8"?>
+<farmers>
+    <farmer>
+        <id>1</id>
+        <name>A Horta da Cidade</name>
+        <instagram>ahortadacidade</instagram>
+        <whatsapp></whatsapp>
+        <owner>George</owner>
+        <type>organic</type>
+    </farmer>
+    <farmer>
+        <id>2</id>
+        <name>Casa Horta</name>
+        <instagram>casa_horta</instagram>
+        <whatsapp>(31) 98457-0065</whatsapp>
+        <owner>Clara</owner>
+        <type>organic</type>
+    </farmer>
+    <farmer>
+        <id>3</id>
+        <name>Coletivo Mujique</name>
+        <instagram>coletivomujique</instagram>
+        <whatsapp>(31) 99936-4197</whatsapp>
+        <owner>Pedro</owner>
+        <type>organic</type>
+    </farmer>
+    <farmer>
+        <id>4</id>
+        <name>Dahorta Orgânicos</name>
+        <instagram>dahortaorganicos</instagram>
+        <whatsapp></whatsapp>
+        <owner></owner>
+        <type>organic</type>
+    </farmer>
+    <farmer>
+        <id>5</id>
+        <name>Estância dos Orgânicos</name>
+        <instagram>estanciadosorganicos</instagram>
+        <whatsapp>(31) 99936-4992</whatsapp>
+        <owner>Flávio</owner>
+        <type>organic</type>
+    </farmer>
+    <farmer>
+        <id>6</id>
+        <name>Fazenda Mangalô</name>
+        <instagram></instagram>
+        <whatsapp>(31) 99906-7260</whatsapp>
+        <owner>JoãoMarcelo</owner>
+        <type>organic</type>
+    </farmer>
+    <farmer>
+        <id>7</id>
+        <name>Floresta Orgânica</name>
+        <instagram>florestaorganica</instagram>
+        <whatsapp></whatsapp>
+        <owner></owner>
+        <type>organic</type>
+    </farmer>
+    <farmer>
+        <id>8</id>
+        <name>Florestal-Aflora</name>
+        <instagram>aflora.florestal</instagram>
+        <whatsapp>(31) 99562-3396</whatsapp>
+        <owner>FernandaDias</owner>
+        <type>agroecologic</type>
+    </farmer>
+    <farmer>
+        <id>9</id>
+        <name>Fradhe Orgânicos</name>
+        <instagram>fradheorganicos</instagram>
+        <whatsapp>(31) 99345-0257</whatsapp>
+        <owner>Mônica</owner>
+        <type>organic</type>
+    </farmer>
+    <farmer>
+        <id>10</id>
+        <name>Horta a Porta</name>
+        <instagram>hortaporta</instagram>
+        <whatsapp></whatsapp>
+        <owner></owner>
+        <type>organic</type>
+    </farmer>
+    <farmer>
+        <id>11</id>
+        <name>João Caipira</name>
+        <instagram>joao_caipira</instagram>
+        <whatsapp>(31) 99622-3616</whatsapp>
+        <owner>Marcia</owner>
+        <type>organic</type>
+    </farmer>
+    <farmer>
+        <id>12</id>
+        <name>Orgânico do Chico</name>
+        <instagram>organicodochico</instagram>
+        <whatsapp></whatsapp>
+        <owner></owner>
+        <type>organic</type>
+    </farmer>
+    <farmer>
+        <id>13</id>
+        <name>Projeto Vista Alegre</name>
+        <instagram>projetovistaalegre</instagram>
+        <whatsapp>(31) 99301-1483</whatsapp>
+        <owner>LucasSousa</owner>
+        <type>organic</type>
+    </farmer>
+    <farmer>
+        <id>14</id>
+        <name>Sacolão Amazonas</name>
+        <instagram>sacolao.amazonas</instagram>
+        <whatsapp>(31) 3047-9353</whatsapp>
+        <owner></owner>
+        <type>organic</type>
+    </farmer>
+    <farmer>
+        <id>15</id>
+        <name>Vila João de Barro</name>
+        <instagram>vilajoaodebarro</instagram>
+        <whatsapp>(31) 99600-7605</whatsapp>
+        <owner>Elena</owner>
+        <type>organic</type>
+    </farmer>
+</farmers>

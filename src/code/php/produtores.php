@@ -26,23 +26,6 @@
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../../assets/ico/apple-touch-icon-114-precomposed.png">
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../../assets/ico/apple-touch-icon-72-precomposed.png">
   <link rel="apple-touch-icon-precomposed" href="../../assets/ico/apple-touch-icon-57-precomposed.png">
-  <style>
-    /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
-    #map {
-      position: absolute;
-      height: 70%;
-      width: 37%;
-    }
-
-    /* Optional: Makes the sample page fill the window. */
-    html,
-    body {
-      height: 100%;
-      margin: 0;
-      padding: 0;
-    }
-  </style>
   <script src="../../assets/js/maps.js"></script>
   <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbntsx5KXXxNC8eMScEfplaZIh3yLTJsA&callback=initMap">
   </script>
@@ -79,20 +62,14 @@
             <h3>Feiras de Produtos Agrícolas</h3>
           </div>
           <h5 id="headings">Mapa por Região</h5>
-          <p>
-            <div id="map"></div>
-
-          </p>
-          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
           <table>
             <?php
-              $xml = simplexml_load_file("../../assets/xml/fairs.xml") or die("Error: Cannot create object");
-              foreach ($xml->children() as $fair) {
-                if($_GET["region"] == $fair->region || $_GET["region"] == null){
+              $xml = simplexml_load_file("../../assets/xml/farmers.xml") or die("Error: Cannot create object");
+              foreach ($xml->children() as $farmer) {
+                if($_GET["type"] == $farmer->type || $_GET["type"] == null){
                 echo "<tr>";
                 echo "<td>";
-                switch($fair->type){
+                switch($farmer->type){
                   case "organic":
                     echo "<a href='#'><img src='../../img/o.png' title=''/>";
                     break;
@@ -103,10 +80,32 @@
                   echo "<a href='#'><img src='../../img/m.png' title=''/>";
                   break;
                 }
+                $url = 'https://instagram.com/' . $farmer->instagram;
+                      $html = file_get_contents($url);
+                      $dom = new DOMDocument();
+                      $dom->loadHTML($html);
+                      $meta_tags = $dom->getElementsByTagName('meta');
+                      foreach( $meta_tags as $meta ) {
+                          if( $meta->getAttribute('property') == 'og:image' ) {
+                              $image_url = $meta->getAttribute('content');
+                              echo $image_url;
+                              if( $image_url ) {
+                                  echo $image_url;
+                                  echo '
+                                      <a href="'. $image_url .'" target="_blank">
+                                          <img src="'. $image_url .'" alt="'. $farmer->instagram .'" width="500" height="auto">
+                                      </a>
+                                  ';
+                              } else {
+                                  echo '<strong>Image not found !</strong>';
+                              }
+                            break;
+                          }
+                      }
                 echo "</td>";
                 echo "<td>";
-                echo "<p>".$fair->address."</p>";
-                echo "<p>".$fair->work_days.", ".$fair->work_hours."</p>";
+                echo "<p>".$farmer->instagram."</p>";
+                echo "<p>".$farmer->whatsapp.", ".$farmer->owner."</p>";
                 echo "</td>";
                 echo "</tr>";
               }

@@ -53,33 +53,11 @@
         <table>
             <tr>
                 <td>
-                  <div class="thumbnail">
+                  <div class="thumbnail" style="background-color:white;">
                     <div class="image-wrapp">
                       <a href="perfil_livro.php?ISBN=8532511015"><img class="new_image_wrapp" src="../../img/book_covers/8532511015.jpg" alt="Portfolio name" title=""/>
                       <article class="da-animate da-slideFromRight" style="display: block;">
                       <a href="perfil_livro.php?ISBN=8532511015"></a>
-                      </article>
-                      </a>
-                    </div>
-                  </div>
-                </td>
-                <td>
-                  <div class="thumbnail">
-                    <div class="image-wrapp">
-                      <a href="perfil_livro.php?ISBN=8535900942"><img class="new_image_wrapp" src="../../img/book_covers/8535900942.jpg" alt="Portfolio name" title=""/>
-                      <article class="da-animate da-slideFromRight" style="display: block;">
-                      <a href="perfil_livro.php?ISBN=8535900942"></a>
-                      </article>
-                      </a>
-                    </div>
-                  </div>
-                </td>
-                <td>
-                  <div class="thumbnail">
-                    <div class="image-wrapp">
-                      <a href="perfil_livro.php?ISBN=8572328890"><img class="new_image_wrapp" src="../../img/book_covers/8572328890.jpg" alt="Portfolio name" title=""/>
-                      <article class="da-animate da-slideFromRight" style="display: block;">
-                      <a href="perfil_livro.php?ISBN=8572328890"></a>
                       </article>
                       </a>
                     </div>

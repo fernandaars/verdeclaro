@@ -18,8 +18,7 @@
   <link href="../../assets/color/success.css" rel="stylesheet">
 
   <!-- fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300|Open+Sans:400,300,300italic,400italic"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300|Open+Sans:400,300,300italic,400italic" rel="stylesheet">
 
   <!-- fav and touch icons -->
   <link rel="shortcut icon" href="../../assets/ico/favicon.png">
@@ -46,7 +45,7 @@
                   <h2>Tecnologia para Agroecologia</h2>
                   <div class="hidden-phone">
                     <p>
-                      O projeto verdeclaro promove a criação e divulgação de novas tecnologias para a agricultura agroecológica. 
+                      O projeto verdeclaro promove a criação e divulgação de novas tecnologias para a agricultura agroecológica.
                     </p>
                   </div>
                 </div>
@@ -97,9 +96,8 @@
 
       <div class="row">
         <div class="span3">
-          <h3 class="heading-success"><span class="btn btn-large btn-success"><i
-                class="m-icon-big-swapright m-icon-white"></i></span>&nbsp;&nbsp;Feiras</h3>
-          <p>Um das melhores formas de apoiar o produtor rural - seja ele agroecológico, orgânico ou familiar - é a compra de produtos 
+          <h3 class="heading-success"><span class="btn btn-large btn-success"><i class="m-icon-big-swapright m-icon-white"></i></span>&nbsp;&nbsp;Feiras</h3>
+          <p>Um das melhores formas de apoiar o produtor rural - seja ele agroecológico, orgânico ou familiar - é a compra de produtos
             nas feiras urbanas.
             <h5><a href="feiras.php"><span class="btn btn-large btn-success"> Ver Feiras Disponíveis</span></a></h5>
           </p>
@@ -107,32 +105,37 @@
         <div class="span3">
           <div class="well sixth_green box text-white">
             <img src="../../assets/img/icon_1.png" alt="" />
-            <a href="feiras.php"><h3>Feira Orgânica de BH</h3>
-            <p class="text-muted">
-            Comercialização de hortaliças, frutas e cereais cultivados segundo os princípios da agricultura orgânica,
-            por produtores rurais da região metropolitana.
-            </p></a>
+            <a href="feiras.php">
+              <h3>Feira Orgânica de BH</h3>
+              <p class="text-muted">
+                Comercialização de hortaliças, frutas e cereais cultivados segundo os princípios da agricultura orgânica,
+                por produtores rurais da região metropolitana.
+              </p>
+            </a>
           </div>
         </div>
         <div class="span3">
           <div class="text-white well fifth_green box">
             <img src="../../assets/img/icon_2.png" alt="" />
-            <a href="categorias.php"><h3>Feira Direto da Roça</h3>
-            <p>
-            Comercialização direta de produtores da agricultura familiar da região metropolitana aos consumidores,
-            evitando atravessadores e garantindo preços justos para ambos.
-            </p>
+            <a href="categorias.php">
+              <h3>Feira Direto da Roça</h3>
+              <p>
+                Comercialização direta de produtores da agricultura familiar da região metropolitana aos consumidores,
+                garantindo preços justos para ambos.
+              </p>
             </a>
           </div>
         </div>
         <div class="span3">
           <div class="well box fourth_green">
             <img src="../../assets/img/icon_3.png" alt="" />
-            <a href="categorias.php"><h3>Feira Terra Viva</h3>
-            <p>
-            A Feira Terra Viva é um empreendimento que une produtores e
-            consumidores e que respeita a saúde, as relações humanas e o meio ambiente.
-            </p></a>
+            <a href="categorias.php">
+              <h3>Feira Terra Viva</h3>
+              <p>
+                A Feira Terra Viva é um empreendimento que une produtores e
+                consumidores e que respeita a saúde, as relações humanas e o meio ambiente.
+              </p>
+            </a>
           </div>
         </div>
       </div>
@@ -155,74 +158,46 @@
 
       <div class="row">
         <div class="span12">
-          <h3><a class="btn btn-large btn-success" href="#"><i class="m-icon-big-swapdown m-icon-white"></i></a> PRODUTORES</h3>
+          <h3 class="heading-success"><span class="btn btn-large btn-success"><i class="m-icon-big-swapdown m-icon-white"></i></span>&nbsp;&nbsp;Produtores</h3><br>
+          <div class="row">
+            <div class="span12">
+              <div id="latest-work" class="carousel btleft">
+                <div id="latest-work" class="carousel-wrapper">
 
-          <div id="latest-work" class="carousel btleft">
-            <div class="carousel-wrapper">
-
-              <ul class="portfolio-home da-thumbs">
-                <li>
-                  <div class="thumbnail">
-                    <div class="image-wrapp">
-                      <a href="perfil_livro.php?ISBN=8572328890">
-                      <img class="new_image_wrapp" src="../../img/book_covers/8572328890.jpg" alt="Portfolio name" title="" />
-                      </a>
-                    </div>
-                    <div class="caption">
-                      <h5>Volta ao Mundo em 80 Dias <br> Júlio Verne</h5>
-                    </div>
-
-                  </div>
-                </li>
-                <li>
-                  <div class="thumbnail">
-                  <div class="image-wrapp">
-                      <a href="perfil_livro.php?ISBN=8516050521">
-                      <img class="new_image_wrapp" src="../../img/book_covers/8516050521.jpg" alt="Portfolio name" title="" />
-                      </a>
-                    </div>
-                    <div class="caption">
-                      <h5>Ponte Para Terabítia <br> Katherine Paterson</h5>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="thumbnail">
-                  <div class="image-wrapp">
-                      <a href="perfil_livro.php?ISBN=9788595081512">
-                      <img class="new_image_wrapp" src="../../img/book_covers/9788595081512.jpg" alt="Portfolio name" title="" />
-                      </a>
-                    </div>
-                    <div class="caption">
-                      <h5>O Pequeno Príncipe <br> Antoine de Saint-Exupéry</h5>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="thumbnail">
-                  <div class="image-wrapp">
-                      <a href="perfil_livro.php?ISBN=9898205318">
-                      <img class="new_image_wrapp" src="../../img/book_covers/9898205318.jpg" alt="Portfolio name" title="" />
-                      </a>
-                    </div>
-                    <div class="caption">
-                      <h5>Onde Vivem os Monstros <br> Maurice Sendak</h5>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="thumbnail">
-                  <div class="image-wrapp">
-                      <a href="perfil_livro.php?ISBN=8532511015">
-                      <img class="new_image_wrapp" src="../../img/book_covers/8532511015.jpg" alt="Portfolio name" title="" />
-                      </a>
-                    </div>
-                    <div class="caption">
-                      <h5>Harry Potter <br> JK Rowlling</h5>
-                    </div>
-                  </div>
-                </li>
-              </ul>
+                  <ul class="portfolio-home da-thumbs">
+                    <?php
+                    $xml = simplexml_load_file("../../assets/xml/farmers.xml") or die("Error: Cannot create object");
+                    foreach ($xml->children() as $farmer) {
+                      echo "<li>";
+                      echo "<div class='thumbnail'>";
+                      echo "<br>";
+                      echo "<div class='image-wrapp'>";
+                      // switch ($farmer->type) {
+                      //   case "organic":
+                      //     echo "<img src='../../assets/img/organic.png' alt='Portfolio name' title='' />";
+                      //     break;
+                      //   case "agroecologic":
+                      //     echo "<img src='../../assets/img/agroecologic.png' alt='Portfolio name' title='' />";
+                      //     break;
+                      //   default:
+                      //     echo "<img src='../../assets/img/mixed.png' alt='Portfolio name' title='' />";
+                      // }
+                      echo "</a>";
+                      echo "<br>";
+                      echo "</div>";
+                      echo "<div class='caption'>";
+                      echo "<h4> " . $farmer->name  . " </h4> ";
+                      echo "<a href='https://www.instagram.com/" . $farmer->instagram . "/'><i class='m-icon-big-swapdown m-icon-white'></i>@".$farmer->instagram."</a>";
+                      echo "<br>";
+                      echo "<a href=''><i class='m-icon-big-swapdown m-icon-white'></i>".$farmer->whatsapp."</a>";
+                      echo "</div>";
+                      echo "</div>";
+                      echo "</li>";
+                    }
+                    ?>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -251,4 +226,5 @@
 
 </body>
 <?php include("../html/footer.html"); ?>
+
 </html>

@@ -10,7 +10,7 @@ var customLabel = {
         agroecologic: {
           icon: '../../assets/img/a.png'
         },
-        mist: {
+        mixed: {
           icon: '../../assets/img/m.png'
         }
       };
@@ -52,7 +52,7 @@ var customLabel = {
         });
 
           // Change this depending on the name of your PHP or XML file
-          downloadUrl('../fairs.xsd', function(data) {
+          downloadUrl('../../assets/xml/fairs.xsd', function(data) {
             var xml = data.responseXML;
             var markers = xml.documentElement.getElementsByTagName('marker');
             Array.prototype.forEach.call(markers, function(markerElem) {
@@ -65,7 +65,7 @@ var customLabel = {
                   parseFloat(markerElem.getAttribute('lat')),
                   parseFloat(markerElem.getAttribute('lng')));
                   
-            if (selectedRegion == region){
+            if (selectedRegion == region || selectedRegion == null){
 
               var infowincontent = document.createElement('div');
               var strong = document.createElement('strong');

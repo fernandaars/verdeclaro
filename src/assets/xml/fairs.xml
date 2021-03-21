@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fairs>
+    <fair>
+        <id>1</id>
+        <name>Feira de Orgânicos de BH</name>
+        <address>Rua Grajaú, Anchieta, Belo Horizonte, Brasil</address>
+        <region>centro_sul</region>
+        <lat>-19.948547031298997</lat>
+        <lng>-43.929278259710074</lng>
+        <type>organic"</type>
+        <work_days>Terça-feira</work_days>
+        <work_hours>07h às 13h</work_hours>
+    </fair>
+    <fair>
+        <id>2</id>
+        <name>Feira de Orgânicos de BH</name>
+        <address>Av. Paulo Camilo Pena 255, Belvedere, Belo Horizonte, Brasil</address>
+        <region>centro_sul</region>
+        <lat>-19.96967304912627</lat>
+        <lng>-43.9422725732035</lng>
+        <type>organic</type>
+        <work_days>Terça-feira</work_days>
+        <work_hours>07h às 13h</work_hours>
+    </fair>
+    <fair>
+        <id>3</id>
+        <name>Feira de Orgânicos de BH</name>
+        <address>Praça ABC, Funcionários, Belo Horizonte, Brasil</address>
+        <lat>-19.93395136399298</lat>
+        <region>centro_sul</region>
+        <lng>-43.93032570203946</lng>
+        <type>organic</type>
+        <work_days>Terça-feira</work_days>
+        <work_hours>07h às 13h</work_hours>
+    </fair>
+    <fair>
+        <id>4</id>
+        <name>Feira de Orgânicos de BH</name>
+        <address>Praça JK, Mangabeiras, Belo Horizonte, Brasil</address>
+        <lat>-19.95825026606941</lat>
+        <region>centro_sul</region>
+        <lng>-43.930101788545244</lng>
+        <type>organic</type>
+        <work_days>Terça-feira</work_days>
+        <work_hours>07h às 13h</work_hours>
+    </fair>
+    <fair>
+        <id>5</id>
+        <name>Feira de Orgânicos de BH</name>
+        <address>Praça República do Líbano, São Bento, Belo Horizonte, Brasil</address>
+        <region>centro_sul</region>
+        <lat>-19.953042405683707</lat>
+        <lng>-43.948730273203765</lng>
+        <type>organic</type>
+        <work_days>Terça-feira</work_days>
+        <work_hours>07h às 13h</work_hours>
+    </fair>
+    <fair>
+        <id>6</id>
+        <name>Feira de Orgânicos de BH</name>
+        <address>Praça João Pessoa, Santa Efigênia,  Belo Horizonte, Brasil</address>
+        <region>centro_sul</region>
+        <lat>-19.927909685589142</lat>
+        <lng>-43.92890947505187</lng>
+        <type>organic</type>
+        <work_days>Quarta-feira</work_days>
+        <work_hours>07h às 13h</work_hours>
+    </fair>
+    <fair>
+        <id>7</id>
+        <name>Feira de Orgânicos de BH</name>
+        <address>Praça Assembléia/CREA, Santo Agostinho,  Belo Horizonte, Brasil</address>
+        <region>centro_sul</region>
+        <lat>-19.931317248930792</lat>
+        <lng>-43.949402159710324</lng>
+        <type>organic</type>
+        <work_days>Sábado</work_days>
+        <work_hours>07h às 13h</work_hours>
+    </fair>
+    <fair>
+        <id>8</id>
+        <name>Feira de Orgânicos de BH</name>
+        <address>Rua São Paulo 2000, Lourdes,   Belo Horizonte, Brasil</address>
+        <region>centro_sul</region>
+        <lat>-19.930773030951336</lat>
+        <lng>-43.94325387320397</lng>
+        <type>organic</type>
+        <work_days>Terça e Quinta-feira</work_days>
+        <work_hours>07h às 13h</work_hours>
+    </fair>
+    <fair>
+        <id>9</id>
+        <name>Feira de Orgânicos de BH</name>
+        <address>Praça Geraldo Torres, Padre Eustáquio, Belo Horizonte, Brasil</address>
+        <region>noroeste</region>
+        <lat>-19.918570359482906</lat>
+        <lng>-43.97666040203953</lng>
+        <type>organic</type>
+        <work_days>Sexta-feira</work_days>
+        <work_hours>07h às 13h</work_hours>
+    </fair>
+    <fair>
+        <id>10</id>
+        <name>Feira de Orgânicos de BH</name>
+        <address>Av.Francisco Sá 1500, Gutierrez,  Belo Horizonte, Brasil</address>
+        <region>oeste</region>
+        <lat>-19.935339339737972</lat>
+        <lng>-43.959755788545415</lng>
+        <type>organic</type>
+        <work_days>Quinta-feira</work_days>
+        <work_hours>07h às 13h</work_hours>
+    </fair>
+    <fair>
+        <id>11</id>
+        <name>Feira de Orgânicos de BH</name>
+        <address>Praça Alberto Dalva Simão, São Luiz,  Belo Horizonte, Brasil</address>
+        <region>pampulha</region>
+        <lat>-19.85312109847501</lat>
+        <lng>-43.967381830875695</lng>
+        <type>organic</type>
+        <work_days>Sábado</work_days>
+        <work_hours>07h às 13h</work_hours>
+    </fair>
+    <fair>
+        <id>12</id>
+        <name>Feira de Orgânicos de BH</name>
+        <address>Praça dos Taxistas, Ouro Preto, Belo Horizonte, Brasil</address>
+        <region>pampulha</region>
+        <lat>-19.871703206987537</lat>
+        <lng>-43.98439387505263</lng>
+        <type>organic</type>
+        <work_days>Sábado</work_days>
+        <work_hours>07h às 13h</work_hours>
+    </fair>
+    <fair>
+        <id>13</id>
+        <name>Feira de Orgânicos de BH</name>
+        <address>Praça Celestino Marra, Santa Amélia, Belo Horizonte, Brasil</address>
+        <region>pampulha</region>
+        <lat>-19.844986235768317</lat>
+        <lng>-43.97737150772611</lng>
+        <type>organic</type>
+        <work_days>Sábado</work_days>
+        <work_hours>07h às 13h</work_hours>
+    </fair>
+    <fair>
+        <id>14</id>
+        <name>Feira Direto da Roça</name>
+        <address>Av. Bandeirantes 800, Mangabeiras, Belo Horizonte, Brasil</address>
+        <region>centro_sul</region>
+        <lat>-19.95410500023782</lat>
+        <lng>-43.92789624436843</lng>
+        <type>agroecologic</type>
+        <work_days>Sábado</work_days>
+        <work_hours>07h às 13h</work_hours>
+    </fair>
+</fairs>

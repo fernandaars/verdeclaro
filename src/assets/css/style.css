@@ -583,12 +583,13 @@ ul.filter li.active a{
 .portfolio-area .thumbnail .caption,
 .portfolio-home .thumbnail .caption{
 	background: #f5f5f5;
-	text-align:center;
+	text-align: left;
 }
 
 .portfolio-area .thumbnail,
 .portfolio-home .thumbnail {
   display: block;
+  background-color: #3d3d3d;
   padding:0;
   border:none;
 }
@@ -620,9 +621,10 @@ ul.filter li.active a{
 
 .portfolio-area .thumbnail .caption,
 .portfolio-home .thumbnail .caption{
+	background-color: #3d3d33;
 	padding:15px 10px 15px 10px;
 	margin:0;
-	color:#333333;
+	color:#fff;
 }
 
 .portfolio-area .thumbnail .caption p,
@@ -1812,3 +1814,26 @@ p .book_description{
 	height: 10%;
 	width: 10%;
   }
+
+  .fa {
+	padding: 10px;
+	font-size: 20px;
+	width: 20px;
+	text-align: right;
+	text-decoration: none;
+	border-radius: 50%;
+  }
+
+.fa:hover {
+	opacity: 0.7;
+  }
+  
+.fa-instagram {
+	background: #ff0066;
+	color: white;
+}
+  
+.fa-whatsapp {
+	background: #55a129;
+	color: white;
+}
