@@ -3,7 +3,7 @@
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>verdeclaro: Feiras de BH</title>
+  <title>verdeclaro: Produtores de BH</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
   <meta name="author" content="">
@@ -40,18 +40,9 @@
     <div class="row">
       <div class="span3 bs-docs-sidebar">
         <ul class="nav nav-list bs-docs-sidenav">
-          <li class="fifth_green"><a href="feiras.php"><i class="icon-chevron-right"></i> Todas as Regiões</a></li>
-          <li class="fifth_green"><a href="?region=barreiro"><i class="icon-chevron-right"></i> Região Barreiro</a></li>
-          <li class="fifth_green"><a href="?region=centro_sul"><i class="icon-chevron-right"></i> Região Centro Sul</a>
-          </li>
-          <li class="fifth_green"><a href="?region=leste"><i class="icon-chevron-right"></i> Região Leste</a></li>
-          <li class="fifth_green"><a href="?region=nordeste"><i class="icon-chevron-right"></i> Região Nordeste</a></li>
-          <li class="fifth_green"><a href="?region=noroeste"><i class="icon-chevron-right"></i> Região Noroeste</a></li>
-          <li class="fifth_green"><a href="?region=norte"><i class="icon-chevron-right"></i> Região Norte</a></li>
-          <li class="fifth_green"><a href="?region=oeste"><i class="icon-chevron-right"></i> Região Oeste</a></li>
-          <li class="fifth_green"><a href="?region=pampulha"><i class="icon-chevron-right"></i> Região Pampulha</a></li>
-          <li class="fifth_green"><a href="?region=venda_nova"><i class="icon-chevron-right"></i> Região Venda Nova</a>
-          </li>
+          <li class="fifth_green"><a href="produtores.php?type=agroecologic"><i class="icon-chevron-right"></i> Produtores Agroecológicos</a></li>
+          <li class="fifth_green"><a href="produtores.php?type=organic"><i class="icon-chevron-right"></i> Produtores Orgânicos</a></li>
+          <li class="fifth_green"><a href="produtores.php?type=mixed"><i class="icon-chevron-right"></i> Produtores Mistos</a></li>
         </ul>
       </div>
       <div class="span9">
@@ -59,9 +50,8 @@
         ================================================== -->
         <section id="global" class="doc">
           <div class="page-header first">
-            <h3>Feiras de Produtos Agrícolas</h3>
+            <h3>Produtores Agrícolas</h3>
           </div>
-          <h5 id="headings">Mapa por Região</h5>
           <table>
             <?php
               $xml = simplexml_load_file("../../assets/xml/farmers.xml") or die("Error: Cannot create object");
@@ -69,43 +59,12 @@
                 if($_GET["type"] == $farmer->type || $_GET["type"] == null){
                 echo "<tr>";
                 echo "<td>";
-                switch($farmer->type){
-                  case "organic":
-                    echo "<a href='#'><img src='../../img/o.png' title=''/>";
-                    break;
-                  case "agroecologic":
-                    echo "<a href='#'><img src='../../img/a.png' title=''/>";
-                    break;
-                  default:
-                  echo "<a href='#'><img src='../../img/m.png' title=''/>";
-                  break;
-                }
-                $url = 'https://instagram.com/' . $farmer->instagram;
-                      $html = file_get_contents($url);
-                      $dom = new DOMDocument();
-                      $dom->loadHTML($html);
-                      $meta_tags = $dom->getElementsByTagName('meta');
-                      foreach( $meta_tags as $meta ) {
-                          if( $meta->getAttribute('property') == 'og:image' ) {
-                              $image_url = $meta->getAttribute('content');
-                              echo $image_url;
-                              if( $image_url ) {
-                                  echo $image_url;
-                                  echo '
-                                      <a href="'. $image_url .'" target="_blank">
-                                          <img src="'. $image_url .'" alt="'. $farmer->instagram .'" width="500" height="auto">
-                                      </a>
-                                  ';
-                              } else {
-                                  echo '<strong>Image not found !</strong>';
-                              }
-                            break;
-                          }
-                      }
+                echo "<a href='https://www.instagram.com/" . $farmer->instagram . "/'><img src=".$farmer->profile." alt='Portfolio name' title='' /></a>";
                 echo "</td>";
                 echo "<td>";
-                echo "<p>".$farmer->instagram."</p>";
-                echo "<p>".$farmer->whatsapp.", ".$farmer->owner."</p>";
+                echo "<h5>".$farmer->instagram."</h5>";
+                echo "<h5>".$farmer->whatsapp."</h5>"; 
+                echo "<h5>".$farmer->owner."</h5>";
                 echo "</td>";
                 echo "</tr>";
               }

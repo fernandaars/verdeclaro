@@ -129,7 +129,7 @@
         <div class="span3">
           <div class="well box fourth_green">
             <img src="../../assets/img/icon_3.png" alt="" />
-            <a href="categorias.php">
+            <a href="feiras.php">
               <h3>Feira Terra Viva</h3>
               <p>
                 A Feira Terra Viva é um empreendimento que une produtores e
@@ -172,22 +172,13 @@
                       echo "<div class='thumbnail'>";
                       echo "<br>";
                       echo "<div class='image-wrapp'>";
-                      // switch ($farmer->type) {
-                      //   case "organic":
-                      //     echo "<img src='../../assets/img/organic.png' alt='Portfolio name' title='' />";
-                      //     break;
-                      //   case "agroecologic":
-                      //     echo "<img src='../../assets/img/agroecologic.png' alt='Portfolio name' title='' />";
-                      //     break;
-                      //   default:
-                      //     echo "<img src='../../assets/img/mixed.png' alt='Portfolio name' title='' />";
-                      // }
+                      echo "<a href='https://www.instagram.com/" . $farmer->instagram . "/'><img src=".$farmer->profile." alt='Portfolio name' title='' /></a>";
                       echo "</a>";
                       echo "<br>";
                       echo "</div>";
                       echo "<div class='caption'>";
                       echo "<h4> " . $farmer->name  . " </h4> ";
-                      echo "<a href='https://www.instagram.com/" . $farmer->instagram . "/'><i class='m-icon-big-swapdown m-icon-white'></i>@".$farmer->instagram."</a>";
+                      echo "<a href='https://www.instagram.com/" . $farmer->instagram . "/'><i class='m-icon-big-swapdown m-icon-white'></i>".$farmer->instagram."</a>";
                       echo "<br>";
                       echo "<a href=''><i class='m-icon-big-swapdown m-icon-white'></i>".$farmer->whatsapp."</a>";
                       echo "</div>";
