@@ -9,26 +9,26 @@
     <meta name="author" content="">
 
     <!-- styles -->
-    <link href="../../assets/css/bootstrap.css" rel="stylesheet">
-    <link href="../../assets/css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="../../assets/css/docs.css" rel="stylesheet">
-    <link href="../../assets/js/google-code-prettify/prettify.css" rel="stylesheet">
-    <link href="../../assets/css/flexslider.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/docs.css" rel="stylesheet">
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <link href="assets/css/flexslider.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300|Open+Sans:400,300,300italic,400italic" rel="stylesheet">
-    <link href="../../assets/css/style.css" rel="stylesheet">
-    <link href="../../assets/color/success.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/color/success.css" rel="stylesheet">
 
     <!-- fav and touch icons -->
-    <link rel="shortcut icon" href="../../assets/ico/favicon.png">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../assets/ico/favicon.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../../assets/ico/favicon.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../../assets/ico/favicon.png">
-    <link rel="apple-touch-icon-precomposed" href="../../assets/ico/favicon.png">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/favicon.png">
 </head>
 
 <body>
     <header>
-        <?php include("../html/menu.html"); ?>
+        <?php include("code/html/menu.html"); ?>
     </header>
 
 
@@ -45,10 +45,10 @@
                     <div id="myCarousel" class="carousel slide">
                         <div class="carousel-inner">
                             <div class="item active">
-                                <img src="../../assets/img/verdeclaro.gif" alt="" />
+                                <img src="assets/img/verdeclaro.gif" alt="" />
                             </div>
                             <div class="item">
-                                <img src="../../assets/img/verdeclaro_2.gif" alt="" />
+                                <img src="assets/img/verdeclaro_2.gif" alt="" />
                             </div>
                             <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
                             <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
@@ -91,20 +91,20 @@
 
 
 
-    <script src="../../assets/js/jquery-1.8.2.min.js"></script>
-    <script src="../../assets/js/jquery.easing.1.3.js"></script>
-    <script src="../../assets/js/google-code-prettify/prettify.js"></script>
-    <script src="../../assets/js/modernizr.js"></script>
-    <script src="../../assets/js/bootstrap.js"></script>
-    <script src="../../assets/js/jquery.elastislide.js"></script>
-    <script src="../../assets/js/jquery.prettyPhoto.js"></script>
-    <script src="../../assets/js/jquery.flexslider.js"></script>
-    <script src="../../assets/js/application.js"></script>
+    <script src="assets/js/jquery-1.8.2.min.js"></script>
+    <script src="assets/js/jquery.easing.1.3.js"></script>
+    <script src="assets/js/google-code-prettify/prettify.js"></script>
+    <script src="assets/js/modernizr.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/jquery.elastislide.js"></script>
+    <script src="assets/js/jquery.prettyPhoto.js"></script>
+    <script src="assets/js/jquery.flexslider.js"></script>
+    <script src="assets/js/application.js"></script>
 
     <!-- Template Custom JavaScript File -->
-    <script src="../../assets/js/custom.js"></script>
+    <script src="assets/js/custom.js"></script>
 
 </body>
-<?php include("../html/footer.html"); ?>
+<?php include("code/html/footer.html"); ?>
 
 </html>

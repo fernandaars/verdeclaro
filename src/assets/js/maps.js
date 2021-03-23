@@ -5,13 +5,13 @@
  */
 var customLabel = {
         organic: {
-          icon: '../../assets/img/o.png'
+          icon: 'assets/img/o.png'
         },
         agroecologic: {
-          icon: '../../assets/img/a.png'
+          icon: 'assets/img/a.png'
         },
         mixed: {
-          icon: '../../assets/img/m.png'
+          icon: 'assets/img/m.png'
         }
       };
 
@@ -52,7 +52,7 @@ var customLabel = {
         });
 
           // Change this depending on the name of your PHP or XML file
-          downloadUrl('../../assets/xml/fairs.xsd', function(data) {
+          downloadUrl('assets/xml/fairs.xsd', function(data) {
             var xml = data.responseXML;
             var markers = xml.documentElement.getElementsByTagName('marker');
             Array.prototype.forEach.call(markers, function(markerElem) {

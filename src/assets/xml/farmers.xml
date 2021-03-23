@@ -7,7 +7,7 @@
         <whatsapp></whatsapp>
         <owner>George</owner>
         <type>organic</type>
-        <profile>../../assets/img/farmers/ahortadacidade/2018-09-27_01-07-51_UTC_profile_pic.jpg</profile>
+        <profile>assets/img/farmers/ahortadacidade/2018-09-27_01-07-51_UTC_profile_pic.jpg</profile>
     </farmer>
     <farmer>
         <id>2</id>
@@ -16,7 +16,7 @@
         <whatsapp>(31) 98457-0065</whatsapp>
         <owner>Clara</owner>
         <type>organic</type>
-        <profile>../../assets/img/farmers/casahorta/2020-02-27_15-11-33_UTC_profile_pic.jpg</profile>
+        <profile>assets/img/farmers/casahorta/2020-02-27_15-11-33_UTC_profile_pic.jpg</profile>
     </farmer>
     <farmer>
         <id>3</id>
@@ -25,7 +25,7 @@
         <whatsapp>(31) 99936-4197</whatsapp>
         <owner>Pedro</owner>
         <type>organic</type>
-        <profile>../../assets/img/farmers/coletivomujique/2017-10-31_14-23-03_UTC_profile_pic.jpg</profile>
+        <profile>assets/img/farmers/coletivomujique/2017-10-31_14-23-03_UTC_profile_pic.jpg</profile>
     </farmer>
     <farmer>
         <id>4</id>
@@ -34,7 +34,7 @@
         <whatsapp></whatsapp>
         <owner></owner>
         <type>organic</type>
-        <profile>../../assets/img/farmers/dahortaorganicos/2016-09-27_21-46-33_UTC_profile_pic.jpg</profile> 
+        <profile>assets/img/farmers/dahortaorganicos/2016-09-27_21-46-33_UTC_profile_pic.jpg</profile> 
     </farmer>
     <farmer>
         <id>5</id>
@@ -43,7 +43,7 @@
         <whatsapp>(31) 99936-4992</whatsapp>
         <owner>Flávio</owner>
         <type>organic</type>
-        <profile>../../assets/img/farmers/estanciadosorganicos/2020-07-14_13-57-26_UTC_profile_pic.jpg</profile>
+        <profile>assets/img/farmers/estanciadosorganicos/2020-07-14_13-57-26_UTC_profile_pic.jpg</profile>
     </farmer>
     <farmer>
         <id>6</id>
@@ -52,7 +52,7 @@
         <whatsapp>(31) 99906-7260</whatsapp>
         <owner>JoãoMarcelo</owner>
         <type>organic</type>
-        <profile>../../assets/img/organic.png</profile>
+        <profile>assets/img/organic.png</profile>
     </farmer>
     <farmer>
         <id>7</id>
@@ -61,7 +61,7 @@
         <whatsapp></whatsapp>
         <owner></owner>
         <type>organic</type>
-        <profile>../../assets/img/farmers/florestaorganica/2019-07-23_21-14-40_UTC_profile_pic.jpg</profile>
+        <profile>assets/img/farmers/florestaorganica/2019-07-23_21-14-40_UTC_profile_pic.jpg</profile>
     </farmer>
     <farmer>
         <id>8</id>
@@ -70,7 +70,7 @@
         <whatsapp>(31) 99562-3396</whatsapp>
         <owner>FernandaDias</owner>
         <type>agroecologic</type>
-        <profile>../../assets/img/farmers/aflora.florestal/2020-04-19_17-58-35_UTC_profile_pic.jpg</profile>
+        <profile>assets/img/farmers/aflora.florestal/2020-04-19_17-58-35_UTC_profile_pic.jpg</profile>
     </farmer>
     <farmer>
         <id>9</id>
@@ -79,7 +79,7 @@
         <whatsapp>(31) 99345-0257</whatsapp>
         <owner>Mônica</owner>
         <type>organic</type>
-        <profile>../../assets/img/farmers/fradheorganicos/2020-12-29_18-48-08_UTC_profile_pic.jpg</profile>
+        <profile>assets/img/farmers/fradheorganicos/2020-12-29_18-48-08_UTC_profile_pic.jpg</profile>
     </farmer>
     <farmer>
         <id>10</id>
@@ -88,7 +88,7 @@
         <whatsapp></whatsapp>
         <owner></owner>
         <type>organic</type>
-        <profile>../../assets/img/farmers/hortaporta/2018-12-18_14-44-07_UTC_profile_pic.jpg</profile>
+        <profile>assets/img/farmers/hortaporta/2018-12-18_14-44-07_UTC_profile_pic.jpg</profile>
     </farmer>
     <farmer>
         <id>11</id>
@@ -97,7 +97,7 @@
         <whatsapp>(31) 99622-3616</whatsapp>
         <owner>Marcia</owner>
         <type>organic</type>
-        <profile>../../assets/img/farmers/joao_caipira/2016-04-11_17-32-01_UTC_profile_pic.jpg</profile>
+        <profile>assets/img/farmers/joao_caipira/2016-04-11_17-32-01_UTC_profile_pic.jpg</profile>
     </farmer>
     <farmer>
         <id>12</id>
@@ -106,7 +106,7 @@
         <whatsapp></whatsapp>
         <owner></owner>
         <type>organic</type>
-        <profile>../../assets/img/farmers/organicodochico/2020-11-03_14-58-57_UTC_profile_pic.jpg</profile> 
+        <profile>assets/img/farmers/organicodochico/2020-11-03_14-58-57_UTC_profile_pic.jpg</profile> 
     </farmer>
     <farmer>
         <id>13</id>
@@ -115,7 +115,7 @@
         <whatsapp>(31) 99301-1483</whatsapp>
         <owner>LucasSousa</owner>
         <type>organic</type>
-        <profile>../../assets/img/farmers/projetovistaalegre/2020-07-14_22-26-52_UTC_profile_pic.jpg</profile>
+        <profile>assets/img/farmers/projetovistaalegre/2020-07-14_22-26-52_UTC_profile_pic.jpg</profile>
     </farmer>
     <farmer>
         <id>14</id>
@@ -124,7 +124,7 @@
         <whatsapp>(31) 3047-9353</whatsapp>
         <owner></owner>
         <type>organic</type>
-        <profile>../../assets/img/farmers/sacolao.amazonas/2019-11-29_00-54-41_UTC_profile_pic.jpg</profile>
+        <profile>assets/img/farmers/sacolao.amazonas/2019-11-29_00-54-41_UTC_profile_pic.jpg</profile>
     </farmer>
     <farmer>
         <id>15</id>
@@ -133,6 +133,6 @@
         <whatsapp>(31) 99600-7605</whatsapp>
         <owner>Elena</owner>
         <type>organic</type>
-        <profile>../../assets/img/farmers/vilajoaodebarro/2020-09-22_18-01-23_UTC_profile_pic.jpg</profile>
+        <profile>assets/img/farmers/vilajoaodebarro/2020-09-22_18-01-23_UTC_profile_pic.jpg</profile>
     </farmer>
 </farmers>
