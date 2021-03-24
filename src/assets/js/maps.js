@@ -52,7 +52,7 @@ var customLabel = {
         });
 
           // Change this depending on the name of your PHP or XML file
-          downloadUrl('assets/xml/fairs.xsd', function(data) {
+          downloadUrl('assets/xml/min_fairs.xsd', function(data) {
             var xml = data.responseXML;
             var markers = xml.documentElement.getElementsByTagName('marker');
             Array.prototype.forEach.call(markers, function(markerElem) {
