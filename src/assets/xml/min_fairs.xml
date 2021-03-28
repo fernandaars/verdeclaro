@@ -1,0 +1,16 @@
+<markers>
+    <marker id="1" name="Feira de Orgânicos de BH" address="Rua Grajaú, Anchieta, Belo Horizonte, Brasil" region="centro_sul" lat="-19.948547031298997" lng="-43.929278259710074" type="organic"/>
+    <marker id="2" name="Feira de Orgânicos de BH" address="Av. Paulo Camilo Pena 255, Belvedere, Belo Horizonte, Brasil" region="centro_sul" lat="-19.96967304912627" lng="-43.9422725732035" type="organic"/>
+    <marker id="3" name="Feira de Orgânicos de BH" address="Praça ABC, Funcionários, Belo Horizonte, Brasil" lat="-19.93395136399298" region="centro_sul" lng="-43.93032570203946" type="organic"/>
+    <marker id="4" name="Feira de Orgânicos de BH" address="Praça JK, Mangabeiras, Belo Horizonte, Brasil" lat="-19.95825026606941" region="centro_sul" lng="-43.930101788545244" type="organic"/>
+    <marker id="5" name="Feira de Orgânicos de BH" address="Praça República do Líbano, São Bento, Belo Horizonte, Brasil" region="centro_sul" lat="-19.953042405683707" lng="-43.948730273203765" type="organic"/>
+    <marker id="6" name="Feira de Orgânicos de BH" address="Praça João Pessoa, Santa Efigênia,  Belo Horizonte, Brasil" region="centro_sul" lat="-19.927909685589142" lng="-43.92890947505187" type="organic"/>
+    <marker id="7" name="Feira de Orgânicos de BH" address="Praça Assembléia/CREA, Santo Agostinho,  Belo Horizonte, Brasil" region="centro_sul" lat="-19.931317248930792" lng="-43.949402159710324" type="organic"/>
+    <marker id="8" name="Feira de Orgânicos de BH" address="Rua São Paulo 2000, Lourdes,   Belo Horizonte, Brasil" region="centro_sul" lat="-19.930773030951336" lng="-43.94325387320397" type="organic"/>
+    <marker id="9" name="Feira de Orgânicos de BH" address="Praça Geraldo Torres, Padre Eustáquio, Belo Horizonte, Brasil" region="noroeste" lat="-19.918570359482906" lng="-43.97666040203953" type="organic"/>
+    <marker id="10" name="Feira de Orgânicos de BH" address="Av.Francisco Sá 1500, Gutierrez,  Belo Horizonte, Brasil" region="oeste" lat="-19.935339339737972" lng="-43.959755788545415" type="organic"/>
+    <marker id="11" name="Feira de Orgânicos de BH" address="Praça Alberto Dalva Simão, São Luiz,  Belo Horizonte, Brasil" region="pampulha" lat="-19.85312109847501, -43.967381830875695" lng="" type="organic"/>
+    <marker id="12" name="Feira de Orgânicos de BH" address="Praça dos Taxistas, Ouro Preto, Belo Horizonte, Brasil" region="pampulha" lat="-19.871703206987537" lng="-43.98439387505263" type="organic"/>
+    <marker id="13" name="Feira de Orgânicos de BH" address="Praça Celestino Marra, Santa Amélia, Belo Horizonte, Brasil" region="pampulha" lat="-19.844986235768317" lng="-43.97737150772611" type="organic"/>
+    <marker id="14" name="Feira Direto da Roça" address="Av. Bandeirantes 800, Mangabeiras, Belo Horizonte, Brasil" region="centro_sul" lat="-19.95410500023782" lng="-43.92789624436843" type="agroecologic"/>
+    </markers>

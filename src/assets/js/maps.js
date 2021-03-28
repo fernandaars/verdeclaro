@@ -18,7 +18,7 @@ var customLabel = {
         function initMap() {
         var infoWindow = new google.maps.InfoWindow;
         const queryString = window.location.search;
-        console.log(queryString);
+        //console.log(queryString);
         const urlParams = new URLSearchParams(queryString);
         const selectedRegion = urlParams.get('region');
         var lang, long;
@@ -52,7 +52,7 @@ var customLabel = {
         });
 
           // Change this depending on the name of your PHP or XML file
-          downloadUrl('assets/xml/min_fairs.xsd', function(data) {
+          downloadUrl('assets/xml/min_fairs.xml', function(data) {
             var xml = data.responseXML;
             var markers = xml.documentElement.getElementsByTagName('marker');
             Array.prototype.forEach.call(markers, function(markerElem) {
